@@ -1,35 +1,35 @@
 .a {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+    height: 500px;
+    width: 300px;
+    border: 3px gray solid;
+    border-radius: 20px;
+    overflow: hidden;
 }
-#font {
+.font {
     font-family: 'Permanent Marker',cursive;
     font-size: 30px;
     border-bottom: dotted brown 4px;
     text-align: center;
-    margin: 20px 30px;
+    margin: 5px 30px;
 }
 .b {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    display:inline;
-    margin-left: 100px;
-    margin-top: 25px;
-}
-div {
-    border: 2px solid grey;
-    height:500px;
-    width:300px;
-    border-radius: 15px;
-    background-image: linear-gradient(top, rgb(165, 101, 117), rgb(165, 101, 117) 30%, transparent 30%, transparent 100%);
-    background-image: -webkit-linear-gradient(top, rgb(165, 101, 117), rgb(165, 101, 117) 30%, transparent 30%, transparent 100%);
 }
 .c {
     overflow: auto;
-    height: 255px;
+    height: 230px;
     text-align: center;
     margin: 0px 10px;
     padding: 0 15px;
+}
+.bgc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-color: deeppink;
+    overflow: hidden;
 }
